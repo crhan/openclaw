@@ -577,7 +577,6 @@ describe("dispatchCronDelivery — double-announce guard", () => {
       sessionKey: "agent:main:main",
       contextKey: "cron-direct-delivery:v1:cron:test-job:1000:telegram::123456:",
       forceSenderIsOwnerFalse: true,
-      trusted: false,
     });
   });
 
@@ -614,7 +613,6 @@ describe("dispatchCronDelivery — double-announce guard", () => {
       sessionKey: "agent:main:main",
       contextKey: "cron-direct-delivery:v1:cron:test-job:1000:telegram::123456:",
       forceSenderIsOwnerFalse: true,
-      trusted: false,
     });
   });
 
@@ -644,7 +642,6 @@ describe("dispatchCronDelivery — double-announce guard", () => {
         sessionKey: "agent:main:main",
         contextKey: "cron-direct-delivery:v1:cron:test-job:1000:telegram::123456:",
         forceSenderIsOwnerFalse: true,
-        trusted: false,
       },
     );
   });
@@ -679,7 +676,6 @@ describe("dispatchCronDelivery — double-announce guard", () => {
       sessionKey: "agent:main:main",
       contextKey: "cron-direct-delivery:v1:cron:test-job:1000:telegram::123456:",
       forceSenderIsOwnerFalse: true,
-      trusted: false,
     });
   });
 
@@ -771,7 +767,6 @@ describe("dispatchCronDelivery — double-announce guard", () => {
       sessionKey: "agent:main:work",
       contextKey: "cron-direct-delivery:v1:cron:test-job:1000:telegram::123456:",
       forceSenderIsOwnerFalse: true,
-      trusted: false,
     });
   });
 
@@ -820,7 +815,6 @@ describe("dispatchCronDelivery — double-announce guard", () => {
         sessionKey: "agent:main:work",
         contextKey: "cron-direct-delivery:v1:cron:test-job:1000:telegram::123456:",
         forceSenderIsOwnerFalse: true,
-        trusted: false,
       },
     );
   });
